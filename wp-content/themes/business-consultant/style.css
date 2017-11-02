@@ -10,12 +10,12 @@ License: GNU GENERAL PUBLIC LICENSE, Version 3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: business-consultant
 */
-input,textarea,select{margin: 0 0 30px;padding: 9px 12px;font-weight: normal;background: transparent;border: 1px solid;box-shadow: none;outline: none; width:100%}
+input,textarea,select{margin: 0 0 30px;padding: 9px 12px;font-weight: normal;border: 1px solid;box-shadow: none;outline: none; width:100%}
 input:focus,textarea:focus,select:focus{outline: none;border-color: #d80032;box-shadow: none;}
 select {width: 100%;padding: 9px 7px;border-radius: 0;letter-spacing: 1px;cursor: pointer;height: 40px;line-height: 40px;}
 input[type=checkbox], input[type=radio]{float: left;margin: 5px 5px 0 0;}
-input[type="submit"]{border:2px solid #ccc; color: #ffffff; padding: 10px 20px;border: 0;margin: 5px 0;outline: none;letter-spacing: 1px;}
-input[type="submit"]:hover {background: #106391;color: #ffffff;}
+input[type="submit"]{background: #106391;border:2px solid #ccc; color: #ffffff; padding: 10px 20px;border: 0;margin: 5px 0;outline: none;letter-spacing: 1px;}
+input[type="submit"]:hover {background: red;color: #ffffff;}
 .services-tabs-top li.active:before,.services-tabs-top li:hover:before,
 .services-tabs-left li.active:before,.services-tabs-left li:hover:before{content: "";position: absolute;z-index: -1;box-shadow: 0 2px 3px rgba(81, 100, 207, 0.5);top: 0;bottom: 0px;left: 0px;right: 0px;border-radius: 88px;}
 .services-tabs-top li.active:after,.services-tabs-top li:hover:after,
