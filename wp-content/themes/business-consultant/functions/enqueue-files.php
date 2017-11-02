@@ -15,5 +15,8 @@ function business_consultant_enqueue() {
     wp_enqueue_script('jquery-form');
     wp_enqueue_script('bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.js',array(), '3.3.6', true);
   	wp_enqueue_script('business-consultant-script', get_template_directory_uri() . '/assets/js/custom.js',false, true, array('jquery'));
+  	wp_enqueue_script('contact-validator-script', get_template_directory_uri() . '/assets/js/validator.js',false, true, array('jquery'));
+  	wp_enqueue_script('contact-script', get_template_directory_uri() . '/assets/js/contact.js',array(), false, true);
+
 }
 add_action( 'wp_enqueue_scripts', 'business_consultant_enqueue' );
